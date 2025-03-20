@@ -24,6 +24,7 @@
  * Mi noviecita
 
  4. Mis proyectos:
+ 
  * Salir con Full conocimientos de este curso de desarollo web
  * Obtener empleo mediante esto y expandir mis horizontes
  * Conocer otros paises (aprender otras idiomas y culturas)
