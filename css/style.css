@@ -1,0 +1,154 @@
+/* GENERALES */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #D4C9BE
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(#886767, #D4C9BE);
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-nav, .portafolio{
+    border: double;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+
+
+
+.menu {
+    display: flex;
+    justify-content: end;
+
+}
+
+.me{
+    width: 150px;
+    border: double red;
+    border-radius: 50%;
+    margin: 20px 650px 0 40px;
+}
+
+main {
+    width: 80%;
+    padding: 50px;
+}
+
+h1, h2, .record {
+    text-align: center;
+    color: red;
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+    text-transform: capitalize;
+  }
+
+p{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+    color: black;
+}
+
+video{
+    width: 400px;
+    border: double red;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.logo {
+    width: 80px;
+    border: solid #ff000071;
+    border-radius: 20%;
+    float: left;
+    margin-right: 20px;
+
+}
+
+.marc {
+    float: left;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.guitarra {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: groove #ff000071;
+    border-radius: 20% 60% 20% 60% / 60% 20% 60% 20%;
+}
+
+.mimoto {
+    float: left;
+    width: 300px;
+    margin-right: 30px;
+    border: double red;
+}
+
+.tabla {
+    margin: 30px auto 30px auto;
+    border-collapse: collapse;
+    background-color: rgb(148, 54, 54);
+    width: 30%;
+    border: double;
+}
+
+.tabla td, .tabla th {
+    text-align: center;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.bandas, .pasatiempos, .familia {
+    color: black;
+    margin-top: 100px;
+}
+
+dt, dd, li{
+    color: black;
+}
+footer{
+    width: 100%;
+    background-image: linear-gradient(#D4C9BE, #886767);
+    height: 150px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+aside {
+    width: 20% ;
+    padding: 50px;
+}
+
+.cita, .cumple, .bandida {
+
+    border-radius: 20%;
+    width: 200px;
+    margin-top: 100px;
+}
+

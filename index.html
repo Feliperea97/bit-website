@@ -4,39 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./assets/Vic.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <title>Un poco sobre mi</title>
   </head>
-  <body>
-    <section id="top">
-    <header>      
-      <nav>
-        <a href="proyectos.html">Mis proyectos</a>
-        <br><br> 
-        <a href="#bandas">Mis bandas favoritas</a>
-        <a href="#pasatiempos">Pasatiempos</a>
-        <a href="#familia">Familia</a>
-        
-      </nav>
-      
-      <img src="./assets/me.jpeg" alt="este soy yo" width="200px"> </a>
-
+  <body class="main">
+    
+    <header id="top">
+      <div class="menu">
+        <img class="me" src="./assets/me.jpeg" alt="este soy yo"></a>
+        <nav>
+          <a class="a-nav" href="proyectos.html">Mis proyectos</a>
+          <a class="a-nav" href="#bandas">Mis bandas favoritas</a>
+          <a class="a-nav" href="#pasatiempos">Pasatiempos</a>
+          <a class="a-nav" href="#familia">Familia</a>
+        </nav>
+      </div>
     </header>
-    </section>
 
     <main>
       <h1>Un poco sobre mi</h1>
 
-       <p>En esta ocasion quiero mostrarles un poco de mi vida y este proceso de aprendizaje que estoy comenzando. Les quiero mostrar diferentes cosas como:</p>
+       <p>Mi nombre es Andres Felipe Perea Vera, tengo 27 años y nací en la ciudad de Bogotá. Me considero una persona disciplinada, respetuosa y constante; me gustan mucho los animales, en especial los perros. Actualmente trabajo como coordinador de logística bilingüe. En esta ocasión quiero mostrarles un poco de mi vida y este proceso de aprendizaje que estoy comenzando.</p>
 
-      <section id="bandas">
+      <section class="bandas" id="bandas">
 
         <h2>Mis bandas favoritas</h2>
+
+        <a href="https://www.megadeth.com/" target="_blank"> <img class="logo" src="./assets/megadeth.jpg" alt="logo" width="100"></a>
 
         <p><span style="font-weight: bold;">MegadetH</a></span>: Esta es una banda de thrash metal originaria de EE. UU. por <a href="https://es.wikipedia.org/wiki/Dave_Mustaine" target="_blank">Dave Mustaine</a> (exintegrante de metallica). Es mi banda favorita ya que fue la primera banda que escuché y sin duda alguna hubo una conexión inmediata. Me atrevo a decir que soy un poco fan, ya que he ido a 3 conciertos.</p>
 
         <video src="./assets/concierto-megadeth.mp4" controls></video>
-
-        <a href="https://www.megadeth.com/" target="_blank"> <img src="./assets/megadeth.jpg" alt="logo" width="100"></a>
+  
 
         <p><span style="font-weight: bold;">Trivium</span>: Adquirí el gusto por esta banda hace un par de años. Al comienzo no me impactó demasiado, pero después de un análisis más profundo logré captar la gran estructura musical que tienen, guiada por su líder <a href="https://es.wikipedia.org/wiki/Matt_Heafy" target="_blank">Matt Heafy.</a></p>
 
@@ -44,29 +46,70 @@
       
       </section>
 
-      <section id="pasatiempos">
+      <section class="pasatiempos" id="pasatiempos">
 
         <h2>Mis pasatiempos preferidos</h2>
+        <img class="marc" src="./assets/marc-marquez.png" alt="marc-marquez" width="200px">
+        <p class="motogp"><span style="font-weight: bold;">Moto GP</span>: Es la máxima categoría del Campeonato Mundial de Motociclismo. Mi gusto por este deporte deriva de mi pasión por las motos; es un deporte en el que se requiere mucha concentración, agilidad, fuerza y dedicación. Los pilotos compiten en el circuito entre 20 y 24 vueltas a velocidades mayores a los 320 km/h. Uno de los mayores exponentes de este deporte es <a href="https://www.motogp.com/es/riders/marc-marquez/23e50438-a657-4fb0-a190-3262b5472f29?tab=overview" target="_blank">Marc Márquez</a>, quien ha ganado 8 campeonatos actualmente. En el Campeonato de este año ha ganado dos fines de semana consecutivos</p>
 
-        <p><span style="font-weight: bold;">Moto GP</span>: Es la máxima categoría del Campeonato Mundial de Motociclismo. Mi gusto por este deporte deriva de mi pasión por las motos; es un deporte en el que se requiere mucha concentración, agilidad, fuerza y dedicación. Los pilotos compiten en el circuito entre 20 y 24 vueltas a velocidades mayores a los 320 km/h. Uno de los mayores exponentes de este deporte es <a href="https://www.motogp.com/es/riders/marc-marquez/23e50438-a657-4fb0-a190-3262b5472f29?tab=overview" target="_blank">Marc Márquez</a>, quien ha ganado 8 campeonatos actualmente. En el Campeonato de este año ha ganado dos fines de semana consecutivos</p>
+      <table class="tabla">
+        <caption class="record">Record de victorias</caption>
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Victorias</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2013</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>2014</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>2016</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>2018</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>2019</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>2021</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>2024</td>
+            <td>3</td>
+          </tr>
+        </tbody>
+      </table>
 
-        <img src="./assets/marc-marquez.png" alt="marc-marquez" width="200px">
+      <img class="guitarra" src="./assets/guitarra.png" alt="guitarra" width="250px">
 
         <p><b>Tocar guitarra</b>: Es curioso cómo desarrollé el gusto y la habilidad de tocar guitarra; cuando estaba en el colegio, me tuve que retirar a mitad del grado escolar por motivos personales. En ese entonces, recientemente me habían comprado una guitarra eléctrica y me dediqué a practicar día y noche hasta que logré aprender a un nivel alto. El género que más me gusta interpretar es el metal.</p>
-
-        <img src="./assets/guitarra.png" alt="guitarra" width="250px">
 
         <p><b>Video juegos</b>: Este sí es un gusto adquirido directamente de mi padre, ya que desde que tengo aproximadamente 10 años hemos tenido estas consolas. Incluso hoy en día, ya con mi trabajo, logré comprarme el Playstation 5. Hoy en día, entre el trabajo y el estudio, no me queda mucho tiempo, pero de vez en cuando disfruto mucho jugar.</p>
 
         <p><b>Cocinar</b>: Ciertamente no cocino tan seguido, pero con mi novia nos gusta ver recetas y replicarlas; ¡mayormente nos salen impresionantes! Pero hay otras veces que hemos tenido ciertos... inconvenientes. Nuestra preparación favorita de momento es el ramen.</p>
 
+        <img class="mimoto" src="./assets/mi-motico.png" alt="Mi Motico">
+
         <p><b>Salir en moto</b>: Esta es otra pasión adquirida gracias a mi padre. Cuando yo tenía 14 años, él compró una moto en ese entonces; siempre le insistí que me enseñara y al día de hoy es una de mis grandes pasiones. Además de eso, soy el orgulloso propietario de una Gixxer 250, la cual fui a comprar a Medellín.</p>
 
-        <img src="./assets/mi-motico.png" alt="Mi Motico">
 
-        <h3>Como manejar moto</h3>
-        <p> Debido a que me gusta tanto manejar moto les voy a indicar los pasos basicos para arrancar:</p>
-
+        <h2>Como manejar moto</h2>
         <ol>
           <li>Encender la moto</li>
           <li> Accionar la leva de el clutch</li>
@@ -79,7 +122,7 @@
 
       </section>
 
-      <section id="familia">
+      <section class="familia" id="familia">
 
         <h2>Circulo familiar</h2>
 
@@ -100,13 +143,26 @@
 
       </section>
     </main>
-
+      <aside>
+        <h2>¿como puedo contactarte?</h2>
+        <form>
+          <label for="name">Nombre</label>
+          <input type="text" id="name">
+          <label for="email">Correo</label>
+          <input type="email" id="email">
+          <label for="message">Mensaje</label>
+          <textarea name="" id="message" placeholder="Coloca tu mensaje"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+        <br>
+      <a class="portafolio" href="https://github.com/Feliperea97" target="_blank"> Mi portafolio</a>
+      <br>
+      <img class="cumple" src="./assets/cumple.webp" alt="cumple">
+      <img class="cita" src="./assets/cita.jpg" alt="cita">
+      <img class="bandida" src="./assets/la-bandida.jpg" alt="la bandida">
+      </aside>
     <footer id="bottom">
       <p>Andres Felipe Perea Vera</p>
-      <aside>
-      <a href="https://github.com/Feliperea97" target="_blank"> Mi portafolio</a>
-      </aside>
-      <br>
       <a href="#top">Volver al inicio</a>
     </footer>
 
