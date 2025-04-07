@@ -1,4 +1,4 @@
-/* GENERALES */
+/* index */
 * {
     box-sizing: border-box;
 }
@@ -8,9 +8,13 @@ body {
     margin: 0%;
     display: flex;
     flex-wrap: wrap;
-    background-color: #D4C9BE
+    background-color: #D4C9BE;
 }
 
+main {
+    width: 80%;
+    padding: 50px;
+}
 header {
     width: 100%;
     display: flex;
@@ -33,9 +37,6 @@ nav {
     padding: 5px;
 }
 
-
-
-
 .menu {
     display: flex;
     justify-content: end;
@@ -49,10 +50,6 @@ nav {
     margin: 20px 650px 0 40px;
 }
 
-main {
-    width: 80%;
-    padding: 50px;
-}
 
 h1, h2, .record {
     text-align: center;
@@ -152,3 +149,4 @@ aside {
     margin-top: 100px;
 }
 
+/* proyectos */
