@@ -73,7 +73,7 @@ p{
     color: black;
 }
 
-video{
+video, .youtube{
     width: 400px;
     border: double red;
     border-radius: 50px;
