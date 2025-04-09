@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="shortcut icon" href="./assets/vic.jpg" type="image/x-icon"> -->
      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -152,14 +151,23 @@
         <h2>¿como puedo contactarte?</h2>
         <form>
           <label for="name">Nombre</label>
-          <input type="text" id="name">
+          <input type="text" id="name" required>
           <label for="email">Correo</label>
           <input type="email" id="email">
-          <label for="message">Mensaje</label>
-          <textarea name="" id="message" placeholder="Coloca tu mensaje"></textarea>
+          <br>
+          <label for="numero">celular</label>
+          <input type="number" id="numero">
+          <br><br>
+          Metodo preferido de comunicacion
+          <br>
+          <label for="llamada">llamada</label>
+          <input type="checkbox"id="llamada">
+          <label for="mensaje">mensaje</label>
+          <input type="checkbox"id="mensaje">
+          <br><br>
           <button type="submit">Enviar</button>
         </form>
-        <br>
+        <br><br>
       <a class="portafolio" href="https://github.com/Feliperea97" target="_blank"> Mi portafolio</a>
       <br>
       <img class="cumple" src="./assets/cumple.webp" alt="cumple">

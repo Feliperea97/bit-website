@@ -3,12 +3,23 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #886767;
+    --secondary-color: #D4C9BE;
+    --title-color: red;
+    --text-color: black;
+    --border-color: #ff000071;
+    --tabla:rgb(148, 54, 54);
+    --background: linear-gradient(#886767, #D4C9BE);
+    --background-footer: linear-gradient(#D4C9BE, #886767);
+}
+
 body {
     height: 100%;
     margin: 0%;
     display: flex;
     flex-wrap: wrap;
-    background-color: #D4C9BE;
+    background-color: var(--secondary-color)
 }
 
 main {
@@ -19,7 +30,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(#886767, #D4C9BE);
+    background: var(--background);
 }
 
 nav {
@@ -33,7 +44,7 @@ nav {
     border: double;
     border-radius: 50px;
     text-decoration: none;
-    color: black;
+    color: var(--text-color);
     padding: 5px;
 }
 
@@ -45,7 +56,7 @@ nav {
 
 .me{
     width: 150px;
-    border: double red;
+    border: double var(--title-color);
     border-radius: 50%;
     margin: 20px 650px 0 40px;
 }
@@ -53,7 +64,7 @@ nav {
 
 h1, h2, .record {
     text-align: center;
-    color: red;
+    color: var(--title-color);
     font-family: "Winky Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -67,18 +78,18 @@ p{
     font-optical-sizing: auto;
     font-weight: 20px;
     font-style: normal;
-    color: black;
+    color: var(--text-color);
 }
 
 video, .youtube{
     width: 400px;
-    border: double red;
+    border: double var(--title-color);
     border-radius: 50px;
     margin-top: 20px;
 }
 .logo {
     width: 80px;
-    border: solid #ff000071;
+    border: solid var(--border-color);
     border-radius: 20%;
     float: left;
     margin-right: 20px;
@@ -96,7 +107,7 @@ video, .youtube{
     width: 200px;
     margin-right: 20px;
     margin-top: 20px;
-    border: groove #ff000071;
+    border: groove var(--border-color);
     border-radius: 20% 60% 20% 60% / 60% 20% 60% 20%;
 }
 
@@ -104,13 +115,13 @@ video, .youtube{
     float: left;
     width: 300px;
     margin-right: 30px;
-    border: double red;
+    border: double var(--title-color);
 }
 
 .tabla {
     margin: 30px auto 30px auto;
     border-collapse: collapse;
-    background-color: rgb(148, 54, 54);
+    background-color: var(--tabla);
     width: 30%;
     border: double;
 }
@@ -122,16 +133,16 @@ video, .youtube{
 }
 
 .bandas, .pasatiempos, .familia {
-    color: black;
+    color: var(--text-color);
     margin-top: 100px;
 }
 
 dt, dd, li{
-    color: black;
+    color: var(--text-color)
 }
 footer{
     width: 100%;
-    background-image: linear-gradient(#D4C9BE, #886767);
+    background: var(--background-footer);
     height: 150px;
     padding-left: 50px;
     padding-top: 20px;
@@ -139,7 +150,7 @@ footer{
 
 aside {
     width: 20% ;
-    padding: 50px;
+    padding: 80px;
 }
 
 .cita, .cumple, .bandida {
