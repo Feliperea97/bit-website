@@ -1,177 +1,156 @@
-* {
+* , *::before, *::after {
     box-sizing: border-box;
-}
-
-header {
-    width: 100%;
-    background-image: linear-gradient(#886767, #D4C9BE);
-    height: 100px;
-}
-
-nav {
-    margin: 40px;
-    width: 4%;
-    border-radius: 20px;
-    padding: 5px;
-}
-
-.home {
-    text-decoration: none;
-    color: black;
-    border: double;
-    border-radius: 50px;
-    padding: 10px;
-}
-
-main {
-    width: 70%;
-    padding: 50px;
-}
-body {
-    height: 100%;
-    margin: 0%;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #D4C9BE;
-    
-}
-
-h1 {
+  }
+  
+  header {
+    font-size: 16px;
+      width: 100%;
+      background-image: linear-gradient(#886767, #D4C9BE);
+      height: 100px;
+      padding-top: 40px;
+  }
+  
+  nav {
+    margin: auto;
     text-align: center;
-    color: red;
-    font-family: "Winky Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-size: 30px;
-    font-style: normal;
-    text-transform: capitalize;
-}
-
-h2 {
-    font-family: "Winky Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-size: 20px;
-    font-style: normal;
-    text-transform: capitalize;
-    margin: 50px 0;
-}
-
-h3 {
-    text-align: center;
-    margin-right: 60px;
-    font-size: 30px;
-    color: red;
-    font-family: "Winky Sans", sans-serif
-}
-
-p{
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 20px;
-    font-style: normal;
-    color: black;
-}
-
-.camioneta {
-    float: left;
-    margin-right: 20px;
-    border-radius: 20px;
-    width: 200px;
-}
-
-footer {
-    width: 100%;
-    background-image: linear-gradient(#D4C9BE, #886767);
-    height: 100px;
-    margin-top: 50px;
-}
-
-aside{
-    width: 30%;
-    padding: auto;
-}
-
-.galeria {
-    width: 200px;
-    margin-top: 50px;
-    border: double;
-    border-radius: 50px;
-    box-shadow: 0 4px 6px black;
-}
-
-.back {
-    margin-left: 40px;
-    text-decoration: none;
-    color: black;
-    border: double;
-    border-radius: 50px;
-    padding: 10px;
-}
-
-/* media queries */
-
-/* Desde 576px en adelante */
-@media (min-width: 576px) {
-    body {
-      font-size: 16px;
-    }
-    .menu {
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-around;
-    }
-    .home {
+  }
+  
+  .home {
+      text-decoration: none;
+      color: black;
+      border: double;
+      border-radius: 50px;
       font-size: 18px;
       padding: 8px;
-    }
-    .camioneta {
-      width: 80%;
-      display: block;
-      margin: 0 auto;
-    }
-   
-    .galeria {
-      width: 150px;
-    }
   }
   
-  /* Desde 768px en adelante */
-  @media (min-width: 768px) {
-    body {
-      font-size: 18px;
-    }
-    .menu {
-      justify-content: space-evenly;
-    }
-    .home {
-      font-size: 20px;
-      padding: 10px;
-    }
-    .camioneta {
-      width: 60%;
-    }
-    .galeria {
-      width: 180px;
-    }
-   
+  main {
+      width: 70%;
+      padding: 50px;
   }
   
-  /* Desde 992px en adelante */
-  @media (min-width: 992px) {
-    body {
+  body {
+      height: 100%;
+      margin: 0%;
+      display: flex;
+      flex-wrap: wrap;
+      background-color: #D4C9BE;
+      
+  }
+  
+  h1 {
+      text-align: center;
+      color: red;
+      font-family: "Winky Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-size: 30px;
+      font-style: normal;
+      text-transform: capitalize;
+  }
+  
+  h2 {
+      font-family: "Winky Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
       font-size: 20px;
-    }
-    .home {
-      font-size: 22px;
-      padding: 12px;
-    }
-    .camioneta {
-      width: 50%;
-    }
-    .galeria {
+      font-style: normal;
+      text-transform: capitalize;
+      margin: 50px 0;
+  }
+  
+  h3 {
+      text-align: center;
+      margin-right: 60px;
+      font-size: 30px;
+      color: red;
+      font-family: "Winky Sans", sans-serif
+  }
+  
+  p{
+      font-family: "Playfair Display", serif;
+      font-optical-sizing: auto;
+      font-weight: 20px;
+      font-style: normal;
+      color: black;
+  }
+  
+  .camioneta {
+    margin-right: 10px;
+    float: left;
+    border-radius: 20px;
+    width: 200px;
+  }
+  
+  footer {
+      width: 100%;
+      background-image: linear-gradient(#D4C9BE, #886767);
+      height: 100px;
+      margin-top: 50px;
+      text-align: center;
+  }
+  
+  aside{
+      width: 30%;
+      padding: auto;
+  }
+  
+  .galeria {
       width: 200px;
-    }
-   
+      margin-top: 50px;
+      border: double;
+      border-radius: 50px;
+      box-shadow: 0 4px 6px black;
+      width: 150px;
   }
+  
+  .back {
+      margin-left: 40px;
+      text-decoration: none;
+      color: black;
+      border: double;
+      border-radius: 50px;
+      padding: 10px;
+  }
+  
+  /* media queries */
+  
+    /* Desde 768px en adelante */
+    @media (min-width: 768px) {
+      body {
+        font-size: 18px;
+      }
+      .menu {
+        justify-content: space-evenly;
+      }
+      .home {
+        font-size: 20px;
+        padding: 10px;
+      }
+      .camioneta {
+        width: 60%;
+      }
+      .galeria {
+        width: 180px;
+      }
+     
+    }
+    
+    /* Desde 992px en adelante */
+    @media (min-width: 992px) {
+      body {
+        font-size: 20px;
+      }
+      .home {
+        font-size: 22px;
+        padding: 12px;
+      }
+      .camioneta {
+        width: 50%;
+      }
+      .galeria {
+        width: 200px;
+      }
+     
+    }
 
